@@ -245,23 +245,23 @@ body {
 }
 
 .game-gift--type-1 {
-  background-image: url("/images/game/gift_1@2x.png");
+  background-image: url("images/game/gift_1@2x.png");
 }
 
 .game-gift--type-2 {
-  background-image: url("/images/game/gift_2@2x.png");
+  background-image: url("images/game/gift_2@2x.png");
 }
 
 .game-gift--type-3 {
-  background-image: url("/images/game/gift_3@2x.png");
+  background-image: url("images/game/gift_3@2x.png");
 }
 
 .game-gift--type-4 {
-  background-image: url("/images/game/gift_4@2x.png");
+  background-image: url("images/game/gift_4@2x.png");
 }
 
 .game-gift--type-5 {
-  background-image: url("/images/game/gift_5@2x.png");
+  background-image: url("images/game/gift_5@2x.png");
 }
 
 .game-gift--catched {
