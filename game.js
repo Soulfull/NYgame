@@ -171,6 +171,7 @@
 	            gift.classList.add('game-gift--type-' + giftType);
 	            this.rootEl.appendChild(gift);
 	            gift.addEventListener(this.tap, this.clickHandler.bind(this, gift), false);
+	            gift.addEventListener('click', this.clickHandler.bind(this, gift), false);
 	            return gift;
 	        }
 	    }, {
@@ -207,6 +208,7 @@
 	        key: 'removeGift',
 	        value: function removeGift(gift) {
 	            gift.removeEventListener(this.tap, this.clickHandler);
+	            gift.removeEventListener('click', this.clickHandler);
 	            this.rootEl.removeChild(gift);
 	        }
 	    }, {
