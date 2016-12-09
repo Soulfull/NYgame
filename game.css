@@ -197,7 +197,7 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  background: transparent url("/images/game/snow@2x.png") 50% 0 no-repeat;
+  background: transparent url("images/game/snow@2x.png") 50% 0 no-repeat;
   background-size: 100% 134px;
 }
 
@@ -210,7 +210,7 @@ body {
   left: 0;
   right: 0;
   z-index: 0;
-  background: transparent url("/images/game/trees.svg") 0 0 repeat-x;
+  background: transparent url("images/game/trees.svg") 0 0 repeat-x;
 }
 
 .game-gift {
